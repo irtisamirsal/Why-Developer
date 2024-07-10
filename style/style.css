@@ -89,3 +89,30 @@ font-weight: bold;}
     color: #0D1321;}
     .btn a:hover{color: rgb(167, 99, 231);}
 
+    /* description sec */
+    .description-sec{display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 40px;}
+iframe{border-radius: 20px;
+background-color: rgb(255, 147, 7);}
+
+/* target section */
+.target-section{
+width: 1140px;
+margin: 0 auto;}
+.target-sec-div{display: flex;
+justify-content: space-between;
+align-items: center;}
+.card{width: 364px;
+height: 300px;
+padding: 20px;}
+.card a{color: #0D1321;
+font-weight: bold;}
+.card a:hover{color: rgb(129, 255, 213);}
+.target-head{text-align: center;}
+.target-head h2{font-size: 32px;
+font-weight: bolder;}
+
+

@@ -1,0 +1,57 @@
+/* For Whole page */
+
+* {font-family:"Azeret Mono", monospace;
+box-sizing: border-box;
+margin: none;
+padding: none;}
+
+/* header part */
+
+nav{ display: flex;
+justify-content: space-between;
+margin: 5px 70px;
+padding: 2px;}
+nav button{width: 244px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    color: #0D1321;}
+
+
+/* main part */
+
+/* color for all */
+.dark-blue{color: #0D1321;}
+
+
+/* 1 .banner part */
+
+.banner{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 998px;
+    min-height: 581px;
+    margin: 0px auto;
+/* margin: 26px 221px 45px 221px; */
+
+}
+.banner img{width: 240px;
+height: 240px;}
+.banner h2{font-size: 48px;
+font-weight: bolder;
+text-align: center;}
+.banner p{font-size: 16px;
+font-weight: auto;
+text-align: center;}
+.banner button{width: 244px;
+height: 65px;
+font-size: 20px;
+font-weight: 700px;
+border-radius: 8px;
+color: aliceblue;
+background-color: #0D1321;}
+.banner-bg{background-image: url(../assets/Hero-bg.png);
+height: 652px;}
